@@ -226,6 +226,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: deserto del baron de colorado
       objectReference: {fileID: 0}
+    - target: {fileID: 2666126897319158058, guid: 1b4b24fd457b669418918819a15a30be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1376
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666126897319158058, guid: 1b4b24fd457b669418918819a15a30be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0523
+      objectReference: {fileID: 0}
+    - target: {fileID: 2666126897319158058, guid: 1b4b24fd457b669418918819a15a30be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1634
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b4b24fd457b669418918819a15a30be, type: 3}
 --- !u!1 &1448350718
