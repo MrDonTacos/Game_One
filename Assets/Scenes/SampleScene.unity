@@ -314,8 +314,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6933441, y: 1.4, z: 0.9966466}
-  m_Center: {x: 0.019970298, y: 0.6924645, z: -0.04531309}
+  m_Size: {x: 0.33150983, y: 1.7483406, z: 0.22087507}
+  m_Center: {x: 0.02534321, y: 0.86663485, z: -0.007593937}
 --- !u!114 &526443547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,6 +357,19 @@ MonoBehaviour:
   transformObject: {fileID: 1139640274}
   ballObject: {fileID: 1139640273}
   throwPower: 10
+--- !u!65 &526443550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526443544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.17104816, y: 0.2636353, z: 0.1441909}
+  m_Center: {x: -0.39372832, y: 0.813763, z: 0.279045}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -554,7 +567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407374, guid: 48b470c6a762f60438c631f219257520, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.908
+      value: 1.017
       objectReference: {fileID: 0}
     - target: {fileID: 407374, guid: 48b470c6a762f60438c631f219257520, type: 3}
       propertyPath: m_LocalPosition.z
@@ -914,6 +927,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 64422531387561294, guid: d01d785db09ea5f43a99f45228e63817, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: fc17e5d3ee7fea78db7c9d0df45d2adf, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01d785db09ea5f43a99f45228e63817, type: 3}
 --- !u!1 &2005661595
